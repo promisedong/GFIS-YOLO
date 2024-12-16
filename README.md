@@ -1,2 +1,4 @@
 
 During surgeries, quickly identifying surgical instruments is critical to avoid severe consequences, such as leaving instruments inside patients. This paper introduces a novel lightweight module, GCFB, replacing the C3 block in YOLOv5s backbone to reduce parameters and FLOPs. The neck’s Bottleneck block is substituted with a more efficient RepVGG block, enhancing feature fusion and lowering computational costs. An Involution operator is integrated into the backbone to improve spatial feature representation, while a lightweight attention module, SimAM, further enhances performance. Experiments on the m2cai16-tool-locations dataset show that the proposed model achieves superior accuracy with fewer parameters and FLOPs, supporting real-time surgical instrument detection for safer medical applications.
+
+
